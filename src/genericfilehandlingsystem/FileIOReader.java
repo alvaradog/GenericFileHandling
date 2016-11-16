@@ -5,6 +5,6 @@ import java.util.List;
 
 public interface FileIOReader {
     
-    public List<String> readFile ();
+    public abstract List<String> readFile ();
     
 }

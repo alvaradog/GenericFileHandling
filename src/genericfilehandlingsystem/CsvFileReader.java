@@ -24,7 +24,8 @@ public class CsvFileReader implements FileIOReader {
         this.data = data;
     }
 
-    public List<String> readFile() {
+    @Override
+    public final List<String> readFile() {
         try {
             in = new BufferedReader(new FileReader(data));
             String line = in.readLine();
