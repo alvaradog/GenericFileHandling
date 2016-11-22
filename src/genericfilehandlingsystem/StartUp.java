@@ -12,13 +12,13 @@ public class StartUp {
         File data = new File("src" + File.separatorChar
                 + "testFile.csv");
         
-        fileReader = new CsvFileReader(data);
-        JOptionPane.showMessageDialog(null,fileReader.readFile());
-        String msg = JOptionPane.showInputDialog(null, 
-                "Please enter a message to add");
-        fileWriter = new CsvFileWriter(data);
-        fileWriter.writeFile(msg);
-        JOptionPane.showMessageDialog(null,fileReader.readFile());
+//        fileReader = new CsvFileReader(data);
+//        JOptionPane.showMessageDialog(null,fileReader.readFile());
+//        String msg = JOptionPane.showInputDialog(null, 
+//                "Please enter a message to add");
+//        fileWriter = new CsvFileWriter(data);
+//        fileWriter.writeFile(msg);
+//        JOptionPane.showMessageDialog(null,fileReader.readFile());
     }
     
 }
